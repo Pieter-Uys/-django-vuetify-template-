@@ -154,8 +154,41 @@ If you have a higher version of python 3.6 you will need to install python 3.6 o
 ```
 pipenv --python 3.6 install --dev & pipenv shell 
 ```
-Alternatively you can use virtualenv to run this as well. just make sure you have all the requirements installed in the requirements.txt
+Alternatively you can use virtualenv to run this as well (Depending on your requirements). just make sure you have all the requirements installed in the requirements.txt
+
 * See Virtualenv - [PyPI](https://pypi.org/project/virtualenv/ ) for usage and installation
+
+Virtualenv installation
+
+Cd into the directory where manage.py is then run the following in command line
+
+```
+virtualenv venv
+```
+The above will create a virtual env from the highest version of python installed on your computer
+
+cd into the virtual env and into the Scripts directory under venv
+
+```
+cd venv/Scripts
+```
+
+activate the virtual env
+
+```
+activate 
+```
+
+Linux users to activate it  
+```
+source activate
+```
+
+cd back to the directory where manage.py is and install the python requirements from the requirements.txt file
+
+```
+pip install -r requirements.txt
+```
 
 ```
 $ pipenv install --dev & pipenv shell 
