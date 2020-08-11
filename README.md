@@ -8,18 +8,58 @@ This template has been forked from  https://github.com/Alhakem/django-vuetify-te
 ```
 Updated all the depenencies
 
-"axios": "^0.19.2",
-"core-js": "^3.6.5",
-"js-cookie": "^2.2.1",
-"register-service-worker": "^1.7.1",
-"roboto-fontface": "*",
-"vue": "^2.6.11",
-"vue-router": "^3.2.0",
-"vuetify": "^2.2.11",
-"vuex": "^3.4.0"
+"dependencies": {
+    "@mdi/font": "^3.6.95",
+    "axios": "^0.19.2",
+    "core-js": "^3.6.5",
+    "js-cookie": "^2.2.1",
+    "register-service-worker": "^1.7.1",
+    "roboto-fontface": "*",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuetify": "^2.2.11",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-vuetify": "~2.0.7",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.3.0"
+  }
 
 Swapped yarn out for NPM
 ```
+
+## previous version's dependencies
+
+"dependencies": {
+    "axios": "^0.18.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.3.5",
+    "register-service-worker": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-plugin-eslint": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "vue-template-compiler": "^2.5.17",
+    "@vue/cli-plugin-pwa": "^3.0.5",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-cli-plugin-vuetify": "^0.4.5",
+    "vuetify-loader": "^1.0.5"
+  },
 
 # Future plans
 
