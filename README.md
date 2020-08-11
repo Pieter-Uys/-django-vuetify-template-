@@ -17,7 +17,11 @@ Updated all the depenencies
 "vue-router": "^3.2.0",
 "vuetify": "^2.2.11",
 "vuex": "^3.4.0"
+
+Swapped yarn out for NPM
 ```
+
+# Note I am still busy updating it and will make more changes with time (See this as a Aplha version)
 
 ## Project setup for Vue (NPM Side)
 ```
