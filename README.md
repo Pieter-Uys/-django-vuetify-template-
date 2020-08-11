@@ -11,6 +11,8 @@ This repo has been forked from https://github.com/Alhakem/django-vuetify-templat
 * 2 - The CRUD on the django page has an issue with the hot reload. When you add multiple messages and delete one it "Deletes" everything but if you refersh 
     ( Press F5 ) the message that you deleted is gone and the others will show.
 
+Will figure it out and update this in the future. 
+
 Thanks to Mohammed Al-Hakem and Gui Talarico  for creating the original 
 
 * Mohammed Al-Hakem's Github - https://github.com/Alhakem
