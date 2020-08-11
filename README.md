@@ -50,7 +50,7 @@ NEW
 -Updated devDependencies versions.
 
 OLD
-
+```
 "@vue/cli-plugin-babel": "^3.0.5",
     "@vue/cli-plugin-eslint": "^3.0.5",
     "@vue/cli-service": "^3.0.5",
@@ -60,7 +60,7 @@ OLD
     "stylus-loader": "^3.0.1",
     "vue-cli-plugin-vuetify": "^0.4.5",
     "vuetify-loader": "^1.0.5"
-
+```
 NEW
 
 ```
