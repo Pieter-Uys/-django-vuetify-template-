@@ -150,11 +150,22 @@ Setup
 ```
 $ NPM install
 ```
-If you have a higher version of python 3.6 you will need to install python 3.6 or later it will not work on a higher version Eg. python 3.7, 3.8 and above until pipenv is updated to support these versions (not later than 3x) To specify pipenv to use python 3.6 like this 
+If you have a higher version of python 3.6 you will need to install python 3.6 or later it will not work on a higher version Eg. python 3.7, 3.8 and above until pipenv is updated to support these versions (not later than 3x) To specify pipenv to use python 3.6 like this. Always make sure the virtualenv is activated before running any of the commands 
 ```
 pipenv --python 3.6 install --dev & pipenv shell 
 ```
-Alternatively you can use virtualenv to run this as well (Depending on your requirements). just make sure you have all the requirements installed in the requirements.txt
+```
+$ pipenv install --dev & pipenv shell 
+$ python manage.py migrate
+```
+
+To activate the pipenv make sure you are in the same directory as the manage.py script and run the following (this is not needed with the above commands but its needed when you close the command line and wish to re-activate it)
+
+```
+pipenv shell 
+```
+
+Alternatively you can use virtualenv to run this as well (Depending on your requirements). just make sure you have all the requirements installed in the requirements.txt and you have django version 2.2.15 installed into your virtualenv
 
 * See Virtualenv - [PyPI](https://pypi.org/project/virtualenv/ ) for usage and installation
 
@@ -190,10 +201,18 @@ cd back to the directory where manage.py is and install the python requirements 
 pip install -r requirements.txt
 ```
 
+Make migrations to your django sqllite to create the tables for the CRUD functionality
+
 ```
-$ pipenv install --dev & pipenv shell 
-$ python manage.py migrate
+python manage.py migrate
 ```
+
+Then you can run the django server by typing in the following 
+
+```
+python manage.py runserver
+```
+
 
 ## Running Development Servers
 
