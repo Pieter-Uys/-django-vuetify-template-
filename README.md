@@ -82,8 +82,9 @@ NEW
     "vuetify-loader": "^1.3.0"
 ```
 
--Removed Yarn and Replaced it with NPM
--Added a requirements.txt file
+- Removed Yarn and Replaced it with NPM
+
+- Added a requirements.txt file
 
 This template is a minimal example for an application using VueJs and Django (RestFramework).
 
