@@ -42,6 +42,7 @@ Swapped yarn out for NPM
 
 ## previous version's dependencies
 
+```
 "dependencies": {
     "axios": "^0.18.0",
     "vue": "^2.5.17",
@@ -60,7 +61,7 @@ Swapped yarn out for NPM
     "vue-cli-plugin-vuetify": "^0.4.5",
     "vuetify-loader": "^1.0.5"
   },
-
+```
 # Future plans
 
 I am planning to make a docker container of this later on for ease of use.
