@@ -99,7 +99,9 @@ original state, except where a different configuration is needed for better inte
 
 ### Demo
 
-[Live Demo](https://django-vue-template-demo.herokuapp.com/)
+[Live Demo](https://django-vue-template-demo.herokuapp.com/) 
+
+Note** this is based on the old version and should be used as an example
 
 ### Includes
 
