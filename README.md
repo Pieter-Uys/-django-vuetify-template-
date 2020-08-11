@@ -21,7 +21,7 @@ Thanks to Mohammed Al-Hakem and Gui Talarico  for creating the original
 
 
 ## What is new in this template
--Updated Dependencies versions.
+- Updated Dependencies versions.
 
 OLD
 
@@ -49,7 +49,7 @@ NEW
 ```
 
 
--Updated devDependencies versions.
+- Updated devDependencies versions.
 
 OLD
 ```
