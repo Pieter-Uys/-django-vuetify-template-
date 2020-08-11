@@ -21,7 +21,7 @@ Updated all the depenencies
 Swapped yarn out for NPM
 ```
 
-# Note I am still busy updating it and will make more changes with time (See this as a Aplha version)
+## *Note I am still busy updating it and will make more changes with time (See this as a Aplha version)
 
 ## Project setup for Vue (NPM Side)
 ```
