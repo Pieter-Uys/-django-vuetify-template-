@@ -1,4 +1,9 @@
-# dashboard
+## Django Vuetify Template ✌️ 🐍
+
+<img src="/src/assets/readme.png">
+
+This template has been forked from  https://github.com/Alhakem/django-vuetify-template and has been updated to use the latest version of vue and vuetify with django 2.2.15 with NPM instead of yarn to be used in a Django and Vuetify application, you can start your next awesome project from here too!  
+
 
 ## Project setup for Vue (NPM Side)
 ```
