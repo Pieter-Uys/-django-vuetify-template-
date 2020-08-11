@@ -150,7 +150,7 @@ Setup
 ```
 $ NPM install
 ```
-If you have a higher version of python 3.6 you will need to install python 3.6 or later it will not work on a higher version Eg. python 3.7, 3.8 and above until pipenv is updated to support these versions (not later than 3x) To specify pipenv to use python 3.6 like this. Always make sure the virtualenv is activated before running any of the commands 
+If you have a higher version of python 3.6 you will need to install python 3.6 or earlier it will not work on a higher version Eg. python 3.7, 3.8 and above until pipenv is updated to support these versions (not later than 3x) To specify pipenv to use python 3.6 like this. Always make sure the virtualenv is activated before running any of the commands 
 ```
 pipenv --python 3.6 install --dev & pipenv shell 
 ```
