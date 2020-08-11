@@ -150,13 +150,20 @@ Setup
 ```
 $ NPM install
 ```
-If you have a higher version of python 3.6 you will need to install python 3.6 or earlier it will not work on a higher version Eg. python 3.7, 3.8 and above until pipenv is updated to support these versions (not later than 3x) To specify pipenv to use python 3.6 like this. Always make sure the virtualenv is activated before running any of the commands 
+If you have a higher version of python 3.6 you will need to install python 3.6 or earlier it will not work on a higher version Eg. python 3.7, 3.8 and above until pipenv is updated to support these versions (not later than 3x) To specify pipenv to use python 3.6 like this.
 ```
 pipenv --python 3.6 install --dev & pipenv shell 
 ```
 ```
 $ pipenv install --dev & pipenv shell 
 $ python manage.py migrate
+```
+
+ Always make sure the virtualenv is activated before running the following
+
+```
+runserver 
+migrate commands
 ```
 
 To activate the pipenv make sure you are in the same directory as the manage.py script and run the following (this is not needed with the above commands but its needed when you close the command line and wish to re-activate it)
