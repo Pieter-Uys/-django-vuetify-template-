@@ -161,6 +161,18 @@ $ pipenv install --dev & pipenv shell
 $ python manage.py migrate
 ```
 
+Make sure you are in the same directory as the manage.py script and that your pipenv shell is active
+```
+$ python manage.py runserver
+```
+
+From another tab in the same directory:
+
+```
+$ npm run serve
+```
+
+
  Always make sure the virtualenv is activated before running the following
 
 ```
@@ -224,19 +236,12 @@ Then you can run the django server by typing in the following
 python manage.py runserver
 ```
 
-
-## Running Development Servers
-
-Make sure you are in the same directory as the manage.py script and that your pipenv shell is active
-```
-$ python manage.py runserver
-```
-
-From another tab in the same directory:
+And the nodejs server from another command line tab
 
 ```
-$ npm run serve
+ npm run serve
 ```
+
 
 The Vuejs application will be served from `localhost:8080` and the Django Api
 and static files will be served from `localhost:8000`.
