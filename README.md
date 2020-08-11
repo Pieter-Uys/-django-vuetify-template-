@@ -66,7 +66,7 @@ Swapped yarn out for NPM
 
 I am planning to make a docker container of this later on for ease of use.
 
-## *Note I am still busy updating it and will make more changes with time (See this as an Aplha version)
+ *Note I am still busy updating it and will make more changes with time (See this as an Aplha version)*
 
 ## Project setup for Vue (NPM Side)
 ```
