@@ -152,8 +152,8 @@ $ NPM install
 (if you have a higher version of python 3.6 you will need to install python 3.6 or later it will not work on a higher version Eg. python 3.7, 3.8 and above until pipenv is updated to support these versions (not later than 3x) To specify pipenv to use python 3.6 like this pipenv --python 3.6 install --dev & pipenv shell 
 
 Alternatively you can use virtualenv to run this as well. just make sure you have all the requirements installed in the requirements.txt
+* See Virtualenv - [PyPI](https://pypi.org/project/virtualenv/ ) for usage and installation
 
-[X] virtualenv - [PyPI](https://pypi.org/project/virtualenv/ )
 ```
 $ pipenv install --dev & pipenv shell 
 $ python manage.py migrate
