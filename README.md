@@ -176,9 +176,10 @@ $ npm run serve
  Always make sure the virtualenv is activated before running the following
 
 ```
-runserver 
-migrate commands
+python manage.py runserver 
+python manage.py migrate  
 ```
+
 
 To activate the pipenv make sure you are in the same directory as the manage.py script and run the following (this is not needed with the above commands but its needed when you close the command line and wish to re-activate it)
 
