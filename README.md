@@ -7,7 +7,7 @@ This template has been forked to be used in a Django and Vuetify application, yo
 
 This repo has been forked from https://github.com/Alhakem/django-vuetify-template and updated to use the latest Dependencies as from 2020-08-11 and is still busy updating it so if you find any problems please feel free to reach out. I will do my best to update it as time goes by. I've noticed a one or two problems with the setup that I will see to
 
-* 1 - Vuetify's colors do not apply to supported color v- items
+* 1 - Vuetify's colors do not apply to supported color v- items (Think its to do with vuetify CSS not correctly imported or some other issue with it)
 * 2 - The CRUD on the django page has an issue with the hot reload. When you add multiple messages and delete one it "Deletes" everything but if you refersh 
     ( Press F5 ) the message that you deleted is gone and the others will show.
 
