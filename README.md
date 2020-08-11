@@ -150,6 +150,8 @@ Setup
 ```
 $ NPM install
 ```
+## Pipenv installation
+
 If you have a higher version of python 3.6 you will need to install python 3.6 or earlier it will not work on a higher version Eg. python 3.7, 3.8 and above until pipenv is updated to support these versions (not later than 3x) To specify pipenv to use python 3.6 like this.
 ```
 pipenv --python 3.6 install --dev & pipenv shell 
@@ -176,7 +178,7 @@ Alternatively you can use virtualenv to run this as well (Depending on your requ
 
 * See Virtualenv - [PyPI](https://pypi.org/project/virtualenv/ ) for usage and installation
 
-Virtualenv installation
+## Virtualenv installation
 
 Cd into the directory where manage.py is then run the following in command line
 
