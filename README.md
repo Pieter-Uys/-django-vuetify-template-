@@ -174,11 +174,13 @@ To activate the pipenv make sure you are in the same directory as the manage.py 
 pipenv shell 
 ```
 
+
+
+## Virtualenv installation
+
 Alternatively you can use virtualenv to run this as well (Depending on your requirements). just make sure you have all the requirements installed in the requirements.txt and you have django version 2.2.15 installed into your virtualenv
 
 * See Virtualenv - [PyPI](https://pypi.org/project/virtualenv/ ) for usage and installation
-
-## Virtualenv installation
 
 Cd into the directory where manage.py is then run the following in command line
 
