@@ -4,6 +4,20 @@
 
 This template has been forked from  https://github.com/Alhakem/django-vuetify-template and has been updated to use the latest version of vue and vuetify with django 2.2.15 with NPM instead of yarn to be used in a Django and Vuetify application, you can start your next awesome project from here too!  
 
+# Whats new?
+```
+Updated all the depenencies
+
+"axios": "^0.19.2",
+"core-js": "^3.6.5",
+"js-cookie": "^2.2.1",
+"register-service-worker": "^1.7.1",
+"roboto-fontface": "*",
+"vue": "^2.6.11",
+"vue-router": "^3.2.0",
+"vuetify": "^2.2.11",
+"vuex": "^3.4.0"
+```
 
 ## Project setup for Vue (NPM Side)
 ```
