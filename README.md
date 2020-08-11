@@ -191,7 +191,7 @@ cd into the virtual env and into the Scripts directory under venv
 cd venv/Scripts
 ```
 
-activate the virtual env
+activate the virtual env type 'activate' (This will run the activate script and activate your virtualenv)
 
 ```
 activate 
