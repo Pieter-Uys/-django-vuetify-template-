@@ -13,8 +13,8 @@ This repo has been forked from https://github.com/Alhakem/django-vuetify-templat
 
 Thanks to Mohammed Al-Hakem and Gui Talarico  for creating the original 
 
-Mohammed Al-Hakem's Github - https://github.com/Alhakem
-Gui Talarico's Github - https://github.com/gtalarico
+* Mohammed Al-Hakem's Github - https://github.com/Alhakem
+* Gui Talarico's Github - https://github.com/gtalarico
 
 
 
