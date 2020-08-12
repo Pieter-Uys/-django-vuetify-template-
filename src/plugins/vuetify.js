@@ -1,13 +1,13 @@
 import Vue from 'vue';
-import Vuetify from 'vuetify/lib';
+import Vuetify from 'vuetify'
 
 Vue.use(Vuetify);
 
-export default new Vuetify({
+const opts = {
   theme: {
-      options: {
-        customProperties: true,
-      },
+    options: {
+      customProperties: true,
+    },
     themes: {
       light: {
         primary: '#ee44aa',
@@ -20,4 +20,6 @@ export default new Vuetify({
       },
     },
   },
-});
+}
+
+export default new Vuetify(opts)
