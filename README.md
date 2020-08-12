@@ -87,7 +87,7 @@ NEW
 
 This template is a minimal example for an application using VueJs and Django (RestFramework).
 
-It's setup to have a clear separation: use Vue, Yarn, and Webpack to handle all frontend logic and asset bundling,
+It's setup to have a clear separation: use Vue, NPM, and Webpack to handle all frontend logic and asset bundling,
 and use Django and RestFramework to manage a Data Models, Web API, and serve static files.
 
 While it's possible to add endpoints to serve django-rendered html responses, the intention is to use Django primarily for the backend, and have view rendering and routing and handled by Vue + Vue Router as a Single Page Application (SPA).
@@ -127,7 +127,7 @@ Note** this is based on the old version and should be used as an example
 | `/src/main.js`       | JS Application Entry Point                 |
 | `/public/index.html` | Html Application Entry Point (`/`)         |
 | `/public/static`     | Static Assets                              |
-| `/dist/`             | Bundled Assets Output (generated at `yarn build` |
+| `/dist/`             | Bundled Assets Output (generated at `NPM build` |
 
 ## Prerequisites
 
